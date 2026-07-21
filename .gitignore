@@ -1,0 +1,22 @@
+# Secretos - nunca deben subirse al repositorio
+.env
+.streamlit/secrets.toml
+credentials/*.json
+
+# Datos generados en tiempo de ejecución
+data/downloads/
+data/feedback.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+
+DEPLOY.md
+
+
+

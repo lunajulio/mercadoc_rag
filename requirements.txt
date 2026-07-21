@@ -1,0 +1,30 @@
+# Instala la variante CPU de torch (mucho más liviana) antes que sentence-transformers.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit>=1.38
+python-dotenv>=1.0
+
+# Google Drive API
+google-api-python-client>=2.140
+google-auth>=2.34
+google-auth-httplib2>=0.2
+
+# LLM de generación
+google-genai>=1.0
+
+# Base de datos vectorial
+pinecone>=6.0,<8.0
+
+# Embeddings + reranking (locales, gratuitos)
+torch>=2.3
+sentence-transformers>=3.0
+
+# Procesamiento de PDFs
+pypdf>=4.3
+
+# Orquestación RAG
+langchain-core>=1.4.7,<2.0.0
+langchain-text-splitters>=1.0,<2.0
+langchain-pinecone>=0.2.13
+langchain-google-genai>=4.0,<5.0
+langchain-community>=0.4.2,<0.5.0

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "17istm6C5dCLPp7c7Gx3VUTag5dMHhZc4": {
+      "name": "Política de Atención al Cliente y Devoluciones — Mercado Central 24h (México)",
+      "category": "General",
+      "md5_checksum": "043704e137477e555ec8ca1efc5c8d1d",
+      "modified_time": "2026-07-20T23:23:56.074Z",
+      "chunk_count": 66
+    },
+    "1LSALfb_dyeBKNfKWI0cS8FCbihoDBBVj": {
+      "name": "Reglamento Interno y Procedimientos Operativos — Mercado Central 24h (México)",
+      "category": "General",
+      "md5_checksum": "4353257d486dd8f5893c14e5effd9736",
+      "modified_time": "2026-07-20T23:23:34.839Z",
+      "chunk_count": 61
+    },
+    "14zMCWaJ9FMCjd19E10m3dBJVaNRvIH16": {
+      "name": "Preguntas Frecuentes (FAQ) — Mercado Central 24h (México)",
+      "category": "General",
+      "md5_checksum": "8dc238850eb47de7d9f0edd5869994c0",
+      "modified_time": "2026-07-20T23:23:13.026Z",
+      "chunk_count": 102
+    },
+    "10nYHSeN9FWkYbnc0EeE_q5WjyOHCdcb0": {
+      "name": "Manual de Proveedores y Política de Compras — Mercado Central 24h",
+      "category": "General",
+      "md5_checksum": "8f31bbfa66ea4f40061178b091b6e29c",
+      "modified_time": "2026-07-20T23:20:38.208Z",
+      "chunk_count": 65
+    }
+  },
+  "last_sync": "2026-07-21T18:10:03.518187+00:00"
+}
