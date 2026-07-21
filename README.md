@@ -160,6 +160,12 @@ cliente y devoluciones, reglamento interno, FAQ y manual de proveedores):
   RH aún no está indexado)
 
 
+# Ejemplos de flujo de preguntas y respuestas
+
+[Flujo de ejemplo 1](ejemplos\ex1.png) 
+[Flujo de ejemplo 2](ejemplos\ex2.png)
+
+
 ## Mantenimiento continuo (requerimiento 7)
 
 - **Pipeline de actualización** (`pipeline/sync.py`): compara Drive contra
