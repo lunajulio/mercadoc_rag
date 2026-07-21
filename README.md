@@ -4,6 +4,8 @@ Agente conversacional (RAG) construido con Streamlit que responde preguntas de
 los colaboradores sobre políticas y manuales internos (PDFs alojados en
 Google Drive), citando siempre la fuente y evitando alucinaciones.
 
+Link al proyecto en Streamlit Community Cloud: [https://mercado-central-rag.streamlit.app](https://mercadocrag-bunzawqtz9yyxuziqk7ifd.streamlit.app/)
+
 ## Descripción general
 
 Mercado Central 24h es un supermercado de operación continua (tienda física,
@@ -166,7 +168,7 @@ cliente y devoluciones, reglamento interno, FAQ y manual de proveedores):
 
 ![Ejemplo de pregunta y respuesta 2](ejemplos/ex2.png)
 
-## Mantenimiento continuo (requerimiento 7)
+## Mantenimiento continuo 
 
 - **Pipeline de actualización** (`pipeline/sync.py`): compara Drive contra
   `data/manifest.json` (hash MD5 + fecha de modificación) y solo reprocesa lo que cambió.
