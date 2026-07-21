@@ -162,9 +162,9 @@ cliente y devoluciones, reglamento interno, FAQ y manual de proveedores):
 
 # Ejemplos de flujo de preguntas y respuestas
 
-[Flujo de ejemplo 1](ejemplos\ex1.png) 
-[Flujo de ejemplo 2](ejemplos\ex2.png)
+![Ejemplo de pregunta y respuesta 1](ejemplos/ex1.png)
 
+![Ejemplo de pregunta y respuesta 2](ejemplos/ex2.png)
 
 ## Mantenimiento continuo (requerimiento 7)
 
