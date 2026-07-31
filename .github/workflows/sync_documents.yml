@@ -19,6 +19,33 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
+      - name: Diagnóstico temporal de secrets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+        run: |
+          python - <<'EOF'
+          import json, os
+
+          def check(name):
+              value = os.environ.get(name, "")
+              if not value:
+                  print(f"{name}: VACÍO")
+                  return
+              print(f"{name}: {len(value)} caracteres")
+              if name == "GOOGLE_SERVICE_ACCOUNT_JSON":
+                  try:
+                      json.loads(value)
+                      print(f"{name}: JSON válido")
+                  except Exception as e:
+                      print(f"{name}: JSON INVÁLIDO -> {e}")
+
+          check("GOOGLE_SERVICE_ACCOUNT_JSON")
+          check("GOOGLE_DRIVE_FOLDER_ID")
+          check("PINECONE_API_KEY")
+          EOF
+
       - name: Ejecutar sincronización
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
