@@ -9,9 +9,6 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: mercado_central_rag
     steps:
       - uses: actions/checkout@v4
 
